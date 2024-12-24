@@ -24,7 +24,7 @@ proto: lint-protos lint-api protoc service-clients
 .PHONY: proto protoc install bins ci-build-misc clean
 
 ##### Arguments ######
-GOOS        ?= $(shell go env GOOS)
+GOOS        ?= linux
 GOARCH      ?= $(shell go env GOARCH)
 GOPATH      ?= $(shell go env GOPATH)
 # Disable cgo by default.
