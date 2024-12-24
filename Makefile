@@ -25,7 +25,7 @@ proto: lint-protos lint-api protoc service-clients
 
 ##### Arguments ######
 GOOS        ?= linux
-GOARCH      ?= $(shell go env GOARCH)
+GOARCH      ?= amd64
 GOPATH      ?= $(shell go env GOPATH)
 # Disable cgo by default.
 CGO_ENABLED ?= 0
